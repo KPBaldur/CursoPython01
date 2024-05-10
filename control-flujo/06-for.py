@@ -1,4 +1,4 @@
-buscar = 10
+buscar = 3
 for numero in range(5):
     print(numero)
     if numero == buscar:
@@ -6,3 +6,6 @@ for numero in range(5):
         break
 else:
     print("no encontre el numero")
+
+for char in "Ultimate Python":
+    print(char)
