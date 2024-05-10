@@ -3,8 +3,14 @@
 #     print(numero)
 #     numero += 2
 
-comando = ""
+# comando = ""
 
-while comando.lower() != "salir":
+# while comando.lower() != "salir":
+#     comando = input("$ ")
+#     print(comando)
+
+while True:
     comando = input("$ ")
     print(comando)
+    if comando.lower() == "salir":
+        break
