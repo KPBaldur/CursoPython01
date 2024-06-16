@@ -7,5 +7,5 @@ r = float(input("Ingresa el valor del radio: "))
 area = pi_value * r ** 2
 longitud = 2 * pi_value * r
 
-print(f"El valor del area del circulo es: {area}")
-print(f"Y el valor de su longitud es: {longitud}")
+print(f"El valor del area del circulo es: {area:.2f}")
+print(f"Y el valor de su longitud es: {longitud:.2f}")
